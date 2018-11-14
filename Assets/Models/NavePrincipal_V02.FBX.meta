@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 072330954cbbc024a8dd571b735b1a03
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body_Air01
+    100002: //RootNode
+    100004: Object017
+    100006: Object018
+    100008: Object019
+    100010: Shape001
+    100012: Shape002
+    400000: Body_Air01
+    400002: //RootNode
+    400004: Object017
+    400006: Object018
+    400008: Object019
+    400010: Shape001
+    400012: Shape002
+    2100000: 'Material #68'
+    2100002: preto_fosco
+    2100004: 'Material #4'
+    2100006: cromado
+    2100008: vermelho_brilho
+    2100010: vidro_condutor
+    2300000: Body_Air01
+    2300002: Object017
+    2300004: Object018
+    2300006: Object019
+    2300008: Shape001
+    2300010: Shape002
+    3300000: Body_Air01
+    3300002: Object017
+    3300004: Object018
+    3300006: Object019
+    3300008: Shape001
+    3300010: Shape002
+    4300000: Shape001
+    4300002: Shape002
+    4300004: Object019
+    4300006: Body_Air01
+    4300008: Object017
+    4300010: Object018
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: 2faf223ca124ff54a9b0f8a247c236ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #68'
+    second: {fileID: 2100000, guid: 65db67ef0bc3bfe439de84f95c7666fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cromado
+    second: {fileID: 2100000, guid: 2f05e12197a49b04d86cf67554579c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: preto_fosco
+    second: {fileID: 2100000, guid: 3ed4a058ef2b1fb47a0d37751c58afde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vermelho_brilho
+    second: {fileID: 2100000, guid: d1ab6808d62bc954ca7c690fb9f3191e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro_condutor
+    second: {fileID: 2100000, guid: 82f0b50802e94f44caad26913687b40d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
