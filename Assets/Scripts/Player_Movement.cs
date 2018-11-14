@@ -29,11 +29,6 @@ public class Player_Movement : MonoBehaviour
     {
         clampHeight = new float[] { transform.position.y + clampHeightMin, transform.position.x + clampHeightMax };
         clampWidth = new float[] { transform.position.y + clampWidthMin, transform.position.x + clampWidthMax };
-
-        Debug.Log("clampHeightMin: " + clampHeight[0]);
-        Debug.Log("clampHeightMax: " + clampHeight[1]);
-        Debug.Log("clampWidthMin: " + clampWidth[0]);
-        Debug.Log("clampWidthMax: " + clampWidth[1]);
     }
 
     private void FixedUpdate()
