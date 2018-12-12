@@ -43,7 +43,7 @@ public class Player_Movement : MonoBehaviour
         MoveVertAxis();
         MoveHorAxis();
 
-        maneuverControls();
+        ManeuverControls();
 
         transform.position += transform.forward * forward_speed * Time.deltaTime;
     }
@@ -62,8 +62,8 @@ public class Player_Movement : MonoBehaviour
 
     private void MoveHorAxis()
     {
-        Vector3 direction = new Vector3(input_Horizontal, 0, 0);
         //Vector3 direction = new Vector3(input_Horizontal, 0, 0);
+        Vector3 direction = new Vector3(input_Horizontal, 0, 0);
         
         transform.position += direction * mov_speed * Time.fixedDeltaTime;
         //transform.position += direction * mov_speed * Time.fixedDeltaTime;
@@ -72,7 +72,7 @@ public class Player_Movement : MonoBehaviour
 
 
 
-    private void maneuverControls()
+    private void ManeuverControls()
     {
         Quaternion target = Quaternion.Euler((input_Vertical * -1 * max_angle_pitch), (input_Horizontal * max_angle_roll), (input_Horizontal * -1 * max_angle_yaw));
 
