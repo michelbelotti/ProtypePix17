@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.0071451566, g: 0.0080708945, b: 0.016534394, a: 1}
+  m_IndirectSpecularColor: {r: 0.007121399, g: 0.008043644, b: 0.016500292, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e8cc51c3add83429b525e92fc5070c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forward_speed: 20
+  forward_speed: 48
   mov_speed: 25
   maneuver_speed: 5
   max_angle_pitch: 25
@@ -160,12 +160,7 @@ Light:
   m_CorrespondingSourceObject: {fileID: 108042244694055102, guid: f2e3075dfa831aa43bade678633f8c0e,
     type: 2}
   m_PrefabInternal: {fileID: 1405607828}
---- !u!4 &1373407665 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4266954950756712, guid: f2e3075dfa831aa43bade678633f8c0e,
-    type: 2}
-  m_PrefabInternal: {fileID: 1405607828}
---- !u!28 &1393758129
+--- !u!28 &416363823
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,6 +199,11 @@ Texture2D:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1373407665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4266954950756712, guid: f2e3075dfa831aa43bade678633f8c0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1405607828}
 --- !u!1001 &1405607828
 Prefab:
   m_ObjectHideFlags: 0
