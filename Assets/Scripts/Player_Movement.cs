@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player_movement : MonoBehaviour
+public class Player_Movement : MonoBehaviour
 {
     //[SerializeField]
     //float angle;
