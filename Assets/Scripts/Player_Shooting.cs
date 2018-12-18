@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Shooting : MonoBehaviour {
+public class player_shooting : MonoBehaviour {
 
     public GameObject laserPrefab;
     public Transform fireTransform;
