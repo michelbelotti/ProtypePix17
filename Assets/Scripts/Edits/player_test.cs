@@ -6,6 +6,8 @@ public class player_test : MonoBehaviour {
 
     public float movementSpeed = 1f;
 
+    private float counter = 0;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,12 +16,17 @@ public class player_test : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        counter = counter + 1;
+        Debug.Log("Counter = " + counter);
+
         // transform.position += transform.forward * movementSpeed * Time.deltaTime;
+        /*
         float distancy = 100f;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Vector3 point = ray.origin + (ray.direction * distancy);
         Debug.Log("world Poit : " + point);
         Debug.DrawLine(Camera.main.transform.position, point, Color.red);
+        */
 
         /*
         float horizontal = Input.GetAxis("Horizontal");
