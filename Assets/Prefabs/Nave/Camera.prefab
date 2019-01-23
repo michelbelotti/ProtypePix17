@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1133777960150156}
+  m_IsPrefabAsset: 1
+--- !u!1 &1133777960150156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4436201104191308}
+  - component: {fileID: 20906565053931598}
+  - component: {fileID: 81874581845962028}
+  - component: {fileID: 114706009876344420}
+  - component: {fileID: 114795392630080276}
+  - component: {fileID: 114593159634843206}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4436201104191308
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133777960150156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.03, z: -20.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20906565053931598
+Camera:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133777960150156}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 30
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &81874581845962028
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133777960150156}
+  m_Enabled: 1
+--- !u!114 &114593159634843206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133777960150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390397f02bff7644ab045efd81d0d720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QualityLevel: 2
+  QualitySteps: 1
+  MotionScale: 3
+  CameraMotionMult: 1
+  MinVelocity: 1
+  MaxVelocity: 10
+  DepthThreshold: 0.01
+  Noise: 0
+  OverlayCameras: []
+  CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  AutoRegisterObjs: 1
+  MinResetDeltaDist: 1000
+  ResetFrameDelay: 1
+  WorkerThreads: 0
+  SystemThreadPool: 0
+  ForceCPUOnly: 0
+  DebugMode: 0
+--- !u!114 &114706009876344420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133777960150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cec86d01b9af3e478e679c4d689b161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  offset: {x: 0, y: 2, z: -20}
+  smoothSpeed: 0.125
+  maxHeight: 14
+  minHeight: 2
+  maxWidth: 12
+  minWidth: 12
+--- !u!114 &114795392630080276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133777960150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c208e531a26a41a4629789f4a706a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_maskTexture: {fileID: 0}
+  m_targetTexture: {fileID: 0}
+  m_showDebugMessages: 1
+  m_softMaxdownscales: 6
+  m_debugToScreen: 0
+  m_highPrecision: 0
+  m_bloomRange: {x: 650, y: 0.0015384615, z: 0, w: 0}
+  m_overallThreshold: 0.3
+  m_bloomParams: {x: 1.4, y: 0.3, z: 1, w: 1}
+  m_temporalFilteringActive: 0
+  m_temporalFilteringValue: 0.05
+  m_bloomDownsampleCount: 6
+  m_temporalFilteringCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.999
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_separateFeaturesThreshold: 0
+  m_featuresThreshold: 0.05
+  m_lensFlare:
+    m_overallIntensity: 1
+    m_normalizedGhostIntensity: 0.8
+    m_normalizedHaloIntensity: 0.1
+    m_applyLensFlare: 1
+    m_lensFlareGhostAmount: 3
+    m_lensFlareGhostsParams: {x: 0.8, y: 0.228, z: 1, w: 4}
+    m_lensFlareGhostChrDistortion: 2
+    m_lensGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_lensFlareGradTexture: {fileID: 0}
+    m_lensFlareHaloParams: {x: 0.1, y: 0.573, z: 1, w: 128}
+    m_lensFlareHaloChrDistortion: 1.51
+    m_lensFlareGaussianBlurAmount: 1
+  m_applyLensDirt: 1
+  m_lensDirtStrength: 2
+  m_lensDirtTexture: {fileID: 2800000, guid: 7825356d1f1778140ad12b5dfe6b4d41, type: 3}
+  m_applyLensStardurst: 1
+  m_lensStardurstTex: {fileID: 2800000, guid: c2216a0fed1c98742b826a85db28021c, type: 3}
+  m_lensStarburstStrength: 2
+  m_anamorphicGlare:
+    m_customGlareDef: []
+    m_customGlareDefIdx: 0
+    m_customGlareDefAmount: 0
+    m_applyGlare: 1
+    _overallTint: {r: 1, g: 1, b: 1, a: 1}
+    m_cromaticAberrationGrad:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_glareMaxPassCount: 4
+    m_currentWidth: 960
+    m_currentHeight: 540
+    m_currentGlareType: 0
+    m_currentGlareIdx: 0
+    m_perPassDisplacement: 4
+    m_intensity: 0.17
+    m_overallStreakScale: 1
+  m_bokehFilter:
+    m_isActive: 0
+    m_applyOnBloomSource: 0
+    m_bokehSampleRadius: 0.5
+    m_bokehCameraProperties: {x: 0.05, y: 0.018, z: 1.34, w: 0.18}
+    m_offsetRotation: 0
+    m_apertureShape: 1
+  m_upscaleWeights:
+  - 0.0842
+  - 0.1282
+  - 0.1648
+  - 0.2197
+  - 0.2197
+  - 0.1831
+  m_gaussianRadius:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  m_gaussianSteps: 010000000100000001000000010000000100000001000000
+  m_lensDirtWeights:
+  - 0.067
+  - 0.102
+  - 0.1311
+  - 0.1749
+  - 0.2332
+  - 0.3
+  m_lensStarburstWeights:
+  - 0.067
+  - 0.102
+  - 0.1311
+  - 0.1749
+  - 0.2332
+  - 0.3
+  m_downscaleSettingsFoldout: 000000000000
+  m_featuresSourceId: 0
+  m_upscaleQuality: 0
+  m_mainThresholdSize: 0
