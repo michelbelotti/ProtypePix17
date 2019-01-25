@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.9622642, g: 0.925286, b: 0.75800997, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.0015
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
@@ -13213,7 +13213,7 @@ MonoBehaviour:
   _anamorphicFlaresVertical: 0
   _anamorphicFlaresTint: {r: 0.5, g: 0.5, b: 1, a: 0}
   _anamorphicFlaresBlur: 1
-  _depthOfField: 1
+  _depthOfField: 0
   _depthOfFieldTransparencySupport: 0
   _depthOfFieldTargetFocus: {fileID: 0}
   _depthOfFieldDebug: 0
@@ -13292,7 +13292,7 @@ MonoBehaviour:
   _blurIntensity: 1
   _pixelateAmount: 1
   _pixelateDownscale: 0
-  isDirty: 0
+  isDirty: 1
   bMat: {fileID: 0}
 --- !u!1 &174894508
 GameObject:
