@@ -2,20 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Test : MonoBehaviour {
+public class Enemy_Test : Enemy_Basics {
 
-	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public override void Update () {
+        base.Update();
 	}
 
-    public void OnTriggerEnter(Collider other)
+    public override void TakeDamage(float amount)
     {
-        Destroy(gameObject);
+        Debug.Log("Sou rebelde!");
     }
+
 }

@@ -28,6 +28,6 @@ public class Camera_Follow : MonoBehaviour {
         Vector3 smoothedPos = Vector3.Lerp(transform.position, desiredPos, smoothSpeed);
 
         transform.position = new Vector3(Mathf.Clamp(smoothedPos.x, (initialPos.x - minWidth), (initialPos.x + maxWidth)), Mathf.Clamp(smoothedPos.y, (initialPos.y - minHeight), (initialPos.y + maxHeight)), smoothedPos.z);
-        //transform.LookAt(target);
+        transform.LookAt(target);
     }
 }

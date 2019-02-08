@@ -105,9 +105,11 @@ GameObject:
   - component: {fileID: 54081627167106018}
   - component: {fileID: 114686202984569360}
   - component: {fileID: 114501273652309932}
+  - component: {fileID: 114175805739864068}
+  - component: {fileID: 65867441565036182}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -744,6 +746,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 72
   m_CollisionDetection: 0
+--- !u!65 &65867441565036182
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395450902872152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.7046895, y: 1, z: 2.4553223}
+  m_Center: {x: -0.030477762, y: 0, z: 0.8913126}
 --- !u!96 &96042882069407878
 TrailRenderer:
   serializedVersion: 2
@@ -1249,6 +1263,18 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &114175805739864068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395450902872152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dec520147454478730601311e8310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 5
 --- !u!114 &114501273652309932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1260,7 +1286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb23cf6d002a8a458119b68477ff3fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserPrefab: {fileID: 1266975860731896, guid: 165f20b611b22dc4da3ad9e2ca493564,
+  laserPrefab: {fileID: 1426024758440284, guid: e6345ea5c855ac043b32e6b5ab2f736e,
     type: 2}
   fireTransform: {fileID: 4976239437869240}
   velocity: 100
