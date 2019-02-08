@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 54396049643875654}
   - component: {fileID: 114560642790714880}
   - component: {fileID: 114780095036534752}
-  - component: {fileID: 114845491068494146}
+  - component: {fileID: 114058326222055736}
   m_Layer: 0
   m_Name: Starship
   m_TagString: Untagged
@@ -1503,6 +1503,18 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &114058326222055736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931356722555186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dec520147454478730601311e8310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 5
 --- !u!114 &114321987769055906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1661,18 +1673,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114845491068494146
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1931356722555186}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e42f5e2d0f58d147a3485728c456a5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1
 --- !u!198 &198630955371359320
 ParticleSystem:
   m_ObjectHideFlags: 1

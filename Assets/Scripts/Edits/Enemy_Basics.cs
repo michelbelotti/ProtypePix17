@@ -16,7 +16,8 @@ public class Enemy_Basics : MonoBehaviour {
 
     private void Awake()
     {
-        target = GameObject.Find("Player").GetComponent<Transform>(); ;
+        //target = GameObject.Find("Player").GetComponent<Transform>(); ;
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     void Start () {
