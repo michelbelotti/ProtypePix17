@@ -9,7 +9,7 @@ public class Spline_Controller : MonoBehaviour
 {
     public bool autoClose = true;
     public bool autoLoop = true;
-    public float duration = 10;
+    public float duration = 10f;
     public orientationMode rotationMode = orientationMode.Node_Z;
     public GameObject splineRoot;
     public GameObject lookAtTarget;
@@ -20,7 +20,7 @@ public class Spline_Controller : MonoBehaviour
     public bool gizmoXAxis = false;
     public bool gizmoYAxis = false;
     public bool gizmoZAxis = false;
-    public float gizmoAxisLenght = 10;
+    public float gizmoAxisLenght = 10f;
 
     internal class SplineNode
     {

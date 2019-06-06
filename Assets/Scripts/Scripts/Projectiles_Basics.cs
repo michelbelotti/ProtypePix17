@@ -12,6 +12,7 @@ public class Projectiles_Basics : MonoBehaviour {
 		
 	}
 
+    /*
     private void OnTriggerEnter(Collider other)
     {
 
@@ -38,5 +39,5 @@ public class Projectiles_Basics : MonoBehaviour {
 
         Destroy(gameObject);
     }
-
+    */
 }
