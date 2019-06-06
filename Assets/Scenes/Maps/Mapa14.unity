@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18812487, g: 0.3403207, b: 0.31900388, a: 1}
+  m_IndirectSpecularColor: {r: 0.21813619, g: 0.35797995, b: 0.3268981, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -113,6 +113,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &128574011
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0004999339
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.94301
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 082e1fc5f10fb994c8a381d8ae9d0860, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1 &1400021211
 GameObject:
   m_ObjectHideFlags: 0
