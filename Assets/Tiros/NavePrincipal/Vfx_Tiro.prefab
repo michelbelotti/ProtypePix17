@@ -40,7 +40,6 @@ GameObject:
   - component: {fileID: 65028393146802276}
   - component: {fileID: 54230950466793206}
   - component: {fileID: 82428469571954638}
-  - component: {fileID: 114964640585004584}
   m_Layer: 0
   m_Name: Vfx_Tiro
   m_TagString: Untagged
@@ -375,17 +374,6 @@ MonoBehaviour:
   muzzlePrefab: {fileID: 1582853162413920, guid: 1af0b9a1b88be964cad2381af5423935,
     type: 2}
   hitPrefab: {fileID: 1757115148041968, guid: 00263337b6dd2cb41b50ed55b3654e94, type: 2}
---- !u!114 &114964640585004584
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128763722327988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a031b71fce839b9488070882fe491399, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!198 &198079029605577310
 ParticleSystem:
   m_ObjectHideFlags: 1
