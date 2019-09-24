@@ -408,7 +408,7 @@ MonoBehaviour:
     Variable: {fileID: 0}
   health:
     UseConstant: 1
-    ConstantValue: 20
+    ConstantValue: 10
     Variable: {fileID: 0}
   target: {fileID: 0}
   atkSpeed:
