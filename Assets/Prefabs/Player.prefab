@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 65524979895259890}
   - component: {fileID: 114180723332405146}
   - component: {fileID: 114508359911423020}
+  - component: {fileID: 114230001267868746}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -594,6 +595,33 @@ MonoBehaviour:
   clampWidthMin:
     UseConstant: 1
     ConstantValue: 20
+    Variable: {fileID: 0}
+--- !u!114 &114230001267868746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612304543008706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4addd96e592824087ff25872635050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileType: {fileID: 0}
+  cannonTransform: {fileID: 0}
+  atkSpeed:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  aim01: {fileID: 0}
+  aim02: {fileID: 0}
+  aim01Length:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  aim02Length:
+    UseConstant: 1
+    ConstantValue: 0
     Variable: {fileID: 0}
 --- !u!114 &114508359911423020
 MonoBehaviour:
