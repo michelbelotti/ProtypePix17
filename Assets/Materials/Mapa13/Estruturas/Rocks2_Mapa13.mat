@@ -156,6 +156,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - PixelSnap: 0
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BloomDepthTreshold: 1
     - _BlurScale: 1
     - _BokehData3: 1000
@@ -179,10 +181,12 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Surface: 0
     - _SwapUVS: 0
     - _UVSec: 0
     - _VignettingAspectRatio: 1
     - _WindQuality: 0
+    - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _AFTint: {r: 1, g: 1, b: 1, a: 0.5}
